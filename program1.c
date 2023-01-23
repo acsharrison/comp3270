@@ -9,10 +9,16 @@ int main() {
     start = clock();
 
     int sum = 0;
-    int n = 2;
-    int x = 2;
-    int a = 1;
+    int n = 0;
+    int x = 0;
+    int a = 0;
 
+    printf("enter value for a: ");
+    scanf("%d",&a);
+    printf("enter value for x: ");
+    scanf("%d",&x);
+    printf("enter value for n: ");
+    scanf("%d",&n);
 
     for (int i = 1; i <= n; i++) {
         sum += pow(x,i);
